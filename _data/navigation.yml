@@ -1,8 +1,8 @@
 main:
-  - title: "News"
-    url: /news/
   - title: "About"
     url: /about/
+  - title: "News"
+    url: /news/
   - title: "Members"
     url: /people/
   - title: "Research"
