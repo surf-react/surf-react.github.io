@@ -1,6 +1,7 @@
 ---
 /* Make author avatar square instead of oval */
 ---
+
 .author__avatar img {
   border-radius: 0 !important;
 }
