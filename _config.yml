@@ -122,3 +122,6 @@ tag_archive:
 
 atom_feed:
   hide: true
+
+custom_js:
+  - /assets/js/custom.js
