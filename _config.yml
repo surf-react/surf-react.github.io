@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Adam Matěj"
   avatar : "/assets/images/profile_pic_Adam.jpg"
-  bio    : "Computational chemist focusing on reactions surfaces, and open-shell organic molecules. In free time he enjoys gardening and woodworking."
+  bio    : "Computational chemist focusing on reactions on surfaces, and open-shell organic molecules. In free time he enjoys gardening and woodworking."
   location: Olomouc, Czechia
   links:
     - label: "FZÚ AV ČR"
