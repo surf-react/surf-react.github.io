@@ -1,9 +1,10 @@
 ---
-/* Make author avatar square instead of oval */
 ---
 
-.author__avatar img {
-  border-radius: 0 !important;
-}
+@charset "utf-8";
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
+/* your override */
+.author__avatar img { border-radius: 0 !important; }
