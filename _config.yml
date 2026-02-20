@@ -59,6 +59,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+custom_js:
+  - /assets/js/custom.js
+
 author:
   name   : "Adam Matěj"
   avatar : "/assets/images/profile_pic_Adam.jpg"
@@ -123,5 +126,4 @@ tag_archive:
 atom_feed:
   hide: true
 
-custom_js:
-  - /assets/js/custom.js
+
