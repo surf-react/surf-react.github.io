@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Adam Matěj"
   avatar : "/assets/images/profile_pic_Adam.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Computational chemist focusing on reactions surfaces, and open-shell organic molecules. In free time enjoys gardening and woodworking."
   links:
     - label: "FZÚ AV ČR"
       icon: "fas fa-fw fa-link"
