@@ -14,14 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Surface Reaction Modelling Group
-email: adam.matej@upol.cz
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Research group modelling chemical reactions on surfaces, namely heterogeneous catalysis for CO2 reduction, on-surface synthesis
 twitter_username: ada_matej
 github_username: matead01
-minimal_mistakes_skin: default
+#minimal_mistakes_skin: default
+#minimal_mistakes_skin: dark
+#minimal_mistakes_skin: aqua
+#minimal_mistakes_skin: air
+minimal_mistakes_skin: contrast
 search: true
 
 # Build settings
@@ -60,7 +62,7 @@ plugins:
 author:
   name   : "Adam Matěj"
   avatar : "/assets/images/profile_pic_Adam.jpg"
-  bio    : "Computational chemist focusing on reactions surfaces, and open-shell organic molecules. In free time enjoys gardening and woodworking."
+  bio    : "Computational chemist focusing on reactions surfaces, and open-shell organic molecules. In free time he enjoys gardening and woodworking."
   links:
     - label: "FZÚ AV ČR"
       icon: "fas fa-fw fa-link"
