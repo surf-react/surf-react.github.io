@@ -26,3 +26,6 @@ Matěj Navrátil
 Anežka Dudková\
 Martin Holzer\
 Ondřej Lanča
+
+---
+#### Would you like to join us? Send an email with your inquiry and motivation.
