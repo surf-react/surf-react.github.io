@@ -12,3 +12,10 @@ We proudly contribute to the teaching activities at the [Department of Physical 
     <p>This is the detailed paragraph in a notice box.</p>
   </div>
 </details>
+
+<details class="mm-accordion">
+  <summary><strong>KFC/MCHR: Modelling of chemical reactions</strong> — Dr. Adam Matěj & Dr. Jan Navrátil</summary>
+  <div class="notice--info">
+    <p>This is the detailed paragraph in a notice box.</p>
+  </div>
+</details>
