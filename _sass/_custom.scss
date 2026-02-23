@@ -53,3 +53,20 @@
     }
   }
 }
+
+/* Collapse the LEFT sidebar if it has no rendered content */
+.layout--single {
+  @media (min-width: 64em) {
+    /* if the sidebar contains nothing meaningful */
+    #main > .sidebar:not(:has(*)) {
+      display: none !important;
+    }
+
+    /* when sidebar is hidden, let .page use full width */
+    #main > .sidebar:not(:has(*)) + .page {
+      width: 100% !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+}
