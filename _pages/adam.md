@@ -2,8 +2,7 @@
 permalink: /adam/
 title: "Dr. Adam Matěj's profile"
 author_profile: false
-classes:
-  - wide
+classes: wide
 ---
 <img src="{{ '/assets/images/profile_pic_Adam.jpg'}}" class="align-right" width="250">
 ## Science
