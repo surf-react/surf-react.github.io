@@ -4,7 +4,7 @@ title: "Dr. Adam Matěj's profile"
 author_profile: false
 classes: wide
 ---
-![image-left](/assets/images/profile_pic_Adam.jpg){: .align-left}
+<img src="{{ '/assets/images/profile_pic_Adam.jpg'}}" class="align-left" width="300">
 ## Science
 #### Focus and skills
 Used methods and programs
