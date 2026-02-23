@@ -1,25 +1,20 @@
-/* Full-width content for pages marked `classes: wide`
-   (especially useful when author_profile is false)
-*/
-body.wide {
-  /* widen the whole inner container */
-  .page,
-  .initial-content,
-  .page__inner-wrap {
+/* Full-width pages when using `classes: wide` */
+.wide {
+  /* remove the global max-width constraint on large screens */
+  #main {
     max-width: 100% !important;
   }
 
-  /* make the main content take full width */
-  .page__content {
+  /* stop reserving space for the right sidebar */
+  .page {
     float: none !important;
     width: 100% !important;
-    max-width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    padding-inline-end: 0 !important;
   }
 
-  /* if a sidebar element exists, hide it on these wide pages */
-  .sidebar {
+  /* optional: if you want absolutely no sidebars at all on wide pages */
+  .sidebar,
+  .sidebar__right {
     display: none !important;
   }
 }
