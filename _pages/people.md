@@ -3,22 +3,22 @@ permalink: /people/
 title: "Members"
 ---
 ### Meet the great people in our group who passionately pursue knowledge and share the love of science
-**Group leader**/
+**Group leader**\
 [Dr. Adam Matěj](/adam/)
 
-**Postdoc fellow**
+**Postdoc fellow**\
 [Dr. Jan Navrátil](/honza/)
 
-**PhD students**
-*a.k.a. Reaction coordinate crew*
+**PhD students**\
+*a.k.a. Reaction coordinate crew*\
 Matěj Navrátil
 
-**Master's students**
+**Master's students**\
 *a.k.a. Transition state trackers*
 
 ---
-**Bachelor's students**
-*a.k.a. Potential energy surface patrol*
-Anežka Dudková
-Martin Holzer
+**Bachelor's students**\
+*a.k.a. Potential energy surface patrol*\
+Anežka Dudková\
+Martin Holzer  
 Ondřej Lanča
