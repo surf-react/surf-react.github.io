@@ -1,90 +1,20 @@
-/* =========================================================
-   Minimal Mistakes – custom layout modes
-   ========================================================= */
-
-/* 1) SAFE wide: only remove max-width constraint.
-      Does NOT hide sidebars, does NOT change page widths.
-      This keeps author_profile:true working. */
+/* Full-width pages when using `classes: wide` */
 .wide {
+  /* remove the global max-width constraint on large screens */
   #main {
     max-width: 100% !important;
   }
-}
 
-/* 2) Wide + no left sidebar (use when author_profile:false)
-      This hides the LEFT sidebar (author profile / nav sidebar) and
-      lets content use the freed space. */
-.wide.no_left {
-  .sidebar {
-    display: none !important;
+  /* stop reserving space for the right sidebar */
+  .page {
+    float: none !important;
+    width: 100% !important;
+    padding-inline-end: 0 !important;
   }
 
-  @media (min-width: 64em) {
-    /* Stop any reserved left space */
-    .page {
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-    }
-  }
-}
-
-/* 3) Wide + no left + TOC on the right
-      Use classes: [wide, no_left, toc_right] together with toc:true */
-.wide.no_left.toc_right {
-  /* Ensure left is hidden */
-  .sidebar {
-    display: none !important;
-  }
-
-  /* Ensure right sidebar exists visually as a sidebar */
+  /* optional: if you want absolutely no sidebars at all on wide pages */
+  .sidebar,
   .sidebar__right {
-    display: block !important;
-    float: right !important;
-    clear: right !important;
-  }
-
-  @media (min-width: 64em) {
-    /* Choose TOC width */
-    .sidebar__right {
-      width: 18rem !important; /* ~288px */
-    }
-
-    /* Make content leave space for TOC */
-    .page {
-      float: left !important;
-      width: calc(100% - 18rem) !important;
-      padding-inline-end: 1rem !important;
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-    }
-  }
-
-  @media (min-width: 80em) {
-    .sidebar__right {
-      width: 20rem !important; /* ~320px */
-    }
-
-    .page {
-      width: calc(100% - 20rem) !important;
-    }
-  }
-
-  /* If TOC is “sticky”, make it scroll nicely */
-  .sidebar__right.sticky .toc__menu {
-    overflow-y: auto;
-    max-height: calc(100vh - 7em);
-  }
-
-  /* IMPORTANT:
-     If your TOC is currently being injected at the top of the content,
-     hide that in-content TOC so you don’t see a duplicate. */
-  .page__content .toc,
-  .page__content nav.toc {
     display: none !important;
   }
-}
-
-/* Optional: keep avatar square (remove if you don't want it) */
-.author__avatar img {
-  border-radius: 0 !important;
 }
