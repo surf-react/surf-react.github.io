@@ -28,4 +28,4 @@ Martin Holzer\
 Ondřej Lanča
 
 ---
-#### Would you like to join us? Send an email with your inquiry and motivation.
+#### Would you like to join us? Send an email with your inquiry and motivation to adam.matej [at] upol [dot] cz
