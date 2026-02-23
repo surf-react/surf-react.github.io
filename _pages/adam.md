@@ -2,6 +2,8 @@
 permalink: /adam/
 title: "Dr. Adam Matěj's profile"
 author_profile: false
+sidebar:
+  image:'/assets/images/profile_pic_Adam.jpg"
 ---
 ## Science
 #### Focus and skills
