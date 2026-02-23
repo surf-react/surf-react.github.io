@@ -2,11 +2,7 @@
 permalink: /research/
 title: "Aims of the group and current projects"
 author_profile: false
-classes:
-  - wide
-  - no_left
-  - toc_right
-toc: true
+classes: wide
 ---
 # Current projects
 under construction
