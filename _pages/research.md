@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 classes:
   - wide
-  - toc_right
+  - toc-right
 toc: true
 ---
 # Current projects
