@@ -1,22 +1,17 @@
 /* =========================================================
-   WIDE PAGES BASELINE (your current behavior)
-   - wide => full width content, no sidebars
+   Default WIDE: full width, no sidebars
    ========================================================= */
-
 .wide {
-  /* remove the global max-width constraint on large screens */
   #main {
     max-width: 100% !important;
   }
 
-  /* stop reserving space for sidebars by default */
   .page {
     float: none !important;
     width: 100% !important;
     padding-inline-end: 0 !important;
   }
 
-  /* default for wide: hide both sidebars */
   .sidebar,
   .sidebar__right {
     display: none !important;
@@ -24,31 +19,27 @@
 }
 
 /* =========================================================
-   WIDE + TOC ON RIGHT (opt-in via classes: [wide, toc-right])
-   - hides LEFT sidebar
-   - shows RIGHT sidebar (TOC)
-   - shrinks content to make space for TOC
+   WIDE + TOC RIGHT
+   Activate with:
+     classes: [wide, toc_right]
    ========================================================= */
-
-.wide.toc-right {
-  /* keep left sidebar hidden even if something tries to render it */
+.wide.toc_right {
+  /* always hide LEFT sidebar */
   .sidebar {
     display: none !important;
   }
 
-  /* show the right sidebar again */
+  /* re-enable RIGHT sidebar (TOC) */
   .sidebar__right {
     display: block !important;
   }
 
-  /* On large screens, reserve space for TOC */
+  /* On large screens reserve space for TOC */
   @media (min-width: 64em) {
-    /* pick a width for the TOC column */
     .sidebar__right {
-      width: 18rem;              /* ~288px */
+      width: 18rem; /* ~288px */
     }
 
-    /* make content leave room for the TOC */
     .page {
       float: left !important;
       width: calc(100% - 18rem) !important;
@@ -56,17 +47,17 @@
     }
   }
 
-  /* On extra large screens give TOC a bit more room */
   @media (min-width: 80em) {
     .sidebar__right {
-      width: 20rem;              /* ~320px */
+      width: 20rem; /* ~320px */
     }
+
     .page {
       width: calc(100% - 20rem) !important;
     }
   }
 
-  /* If you use toc_sticky: true, make the TOC scroll nicely */
+  /* nice scrolling for long TOCs */
   .sidebar__right.sticky .toc__menu {
     overflow-y: auto;
     max-height: calc(100vh - 7em);
