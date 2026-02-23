@@ -14,4 +14,4 @@ Defended his dissertation thesis named *Reaction Mechanisms in on-Surface Synthe
 list of attended conferences
 
 ## Personal
-Adam enjoys manual labor outside of the office, mainly in his 2000 m<sup>2 garden where he grows a variety of vegetables, fruit trees and berry bushes, besides renovating a garden house. With that comes his second passion, which is woodworking. Self tought enthusiast who enjoys carpentry so much that he built the roof of the garden house. At home he likes to spend time with his wife and three cats or play videogames. 
+Adam enjoys manual labor outside of the office, mainly in his 2000 m<sup>2</sup> garden where he grows a variety of vegetables, fruit trees and berry bushes, besides renovating a garden house. With that comes his second passion, which is woodworking. Self tought enthusiast who enjoys carpentry so much that he built the roof of the garden house. At home he likes to spend time with his wife and three cats or play videogames. 
