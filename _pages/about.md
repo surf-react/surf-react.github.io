@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 classes: wide
-autho_profile: false
+author_profile: false
 ---
 The idea behind our group, our home, Olomouc, how we started and what is our goal. Don't forget to mention our philosophy for open science, strong ethics, and work/life balance.
 
