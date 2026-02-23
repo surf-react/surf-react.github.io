@@ -1,100 +1,20 @@
-/* ==========================================================================
-   Custom overrides for Minimal Mistakes
-   ========================================================================== */
-
-/* Keep avatar square (you already had this) */
-.author__avatar img {
-  border-radius: 0 !important;
-}
-
-/* ==========================================================================
-   Layout logic: author_profile-aware wide pages + optional TOC on the right
-
-   Target behavior:
-   - author_profile: true  -> left sidebar exists -> DO NOT alter layout
-   - author_profile: false -> no left sidebar    -> expand content left
-   - toc: true             -> keep right sidebar for TOC on wide pages
-   ========================================================================== */
-
-/*
-  How we detect "author_profile: false" in pure CSS:
-
-  In Minimal Mistakes, when the left sidebar is rendered, the DOM under #main
-  typically looks like:
-    #main
-      .sidebar         (left)
-      .page            (content)
-  When left sidebar is NOT rendered (author_profile:false, no custom sidebar),
-  it typically becomes:
-    #main
-      .page
-
-  So: "#main > .page:first-child" is a strong indicator that there is NO left sidebar.
-*/
-
-/* ---------------------------------------------
-   1) Expand content left when there is NO left sidebar
-   --------------------------------------------- */
-.layout--single.wide {
-  @include breakpoint($large) {
-    #main > .page:first-child {
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-      left: auto !important;
-    }
-  }
-}
-
-/* ---------------------------------------------
-   2) Wide + TOC: reserve right sidebar space ONLY when TOC exists
-   (Uses :has() so it auto-detects toc:true without extra classes.)
-   Safari supports :has(), so you’re fine.
-   --------------------------------------------- */
-.layout--single.wide {
-  @include breakpoint($large) {
-    /* Only when there's no left sidebar AND a right sidebar exists */
-    #main > .page:first-child:has(.sidebar__right) {
-      width: calc(100% - #{$right-sidebar-width-narrow}) !important;
-    }
-
-    #main > .page:first-child .sidebar__right {
-      width: $right-sidebar-width-narrow;
-    }
-
-    /* Make TOC menu scroll nicely if it gets tall */
-    #main > .page:first-child .sidebar__right.sticky .toc__menu {
-      overflow-y: auto;
-      max-height: calc(100vh - 7em);
-    }
+/* Full-width pages when using `classes: wide` */
+.wide {
+  /* remove the global max-width constraint on large screens */
+  #main {
+    max-width: 100% !important;
   }
 
-  @include breakpoint($x-large) {
-    #main > .page:first-child:has(.sidebar__right) {
-      width: calc(100% - #{$right-sidebar-width}) !important;
-    }
-
-    #main > .page:first-child .sidebar__right {
-      width: $right-sidebar-width;
-    }
+  /* stop reserving space for the right sidebar */
+  .page {
+    float: none !important;
+    width: 100% !important;
+    padding-inline-end: 0 !important;
   }
-}
 
-/* ---------------------------------------------
-   3) Optional: If the theme ever leaves an "empty" left sidebar container
-   (rare, but can happen with custom nav/sidebar settings),
-   hide it *only when empty* to prevent blank space.
-   This is safe because it triggers only when the sidebar has no content.
-   --------------------------------------------- */
-.layout--single {
-  @include breakpoint($large) {
-    #main > .sidebar:not(:has(*)) {
-      display: none !important;
-    }
-
-    #main > .sidebar:not(:has(*)) + .page {
-      margin-left: 0 !important;
-      padding-left: 0 !important;
-      width: 100% !important;
-    }
+  /* optional: if you want absolutely no sidebars at all on wide pages */
+  .sidebar,
+  .sidebar__right {
+    display: none !important;
   }
 }
