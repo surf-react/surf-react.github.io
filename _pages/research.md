@@ -5,17 +5,17 @@ author_profile: false
 classes: wide
 toc: true
 ---
-#### Current projects
+# Current projects
 under construction
 
-#### Funding
+# Funding
 under construction
 
-#### Collaborations
+# Collaborations
 under construction
 
-#### Finished projects
+# Finished projects
 under construction
 
-#### Used codes and other technicalities
+# Used codes and other technicalities
 under construction
