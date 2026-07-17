@@ -1,15 +1,51 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-#layout: home
-#author_profile: true
-layout: single
-title: "Home"
-author_profile: true
-permalink: /
+layout: default
 ---
-Welcome to the home page of the Surf-React group established at the Department of Physical Chemistry, Faculty of Sciences, Palacký University in Olomouc, Czechia.
 
+<section class="hero">
+  <div class="hero-inner hero-split">
+    <div class="hero-text">
+      <p class="eyebrow">Theoretical chemistry · Palacký University Olomouc</p>
+      <h1>Surf<span class="accent">React</span></h1>
+      <p class="tagline">
+        We model chemical reactions where they actually happen on catalysts —
+        at the interfaces of solid surfaces, one elementary step at a time.
+      </p>
+    </div>
+    <!-- Replace assets/img/hero.svg with your own image (any format —
+         just update the src accordingly). Roughly square-to-landscape
+         works best, e.g. 1000x800 px. -->
+    <div class="hero-image">
+      <img src="{{ '/assets/img/hero.svg' | relative_url }}"
+           alt="Molecules reacting on a periodic solid surface">
+    </div>
+  </div>
+</section>
 
+<section class="section">
+  <div class="section-inner">
+    <p class="eyebrow">Featured</p>
+    <h2>Recent publications</h2>
+    {% include pub-carousel.html %}
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="section-inner">
+    <p class="eyebrow">News</p>
+    <h2>Latest updates</h2>
+
+    <div class="updates-grid">
+      {% for post in site.posts limit: 2 %}
+      <article class="update-card">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        <a class="more" href="{{ post.url | relative_url }}">Read more →</a>
+      </article>
+      {% endfor %}
+    </div>
+
+    <p class="all-updates-link"><a href="{{ '/archive/' | relative_url }}">Browse the full archive →</a></p>
+  </div>
+</section>

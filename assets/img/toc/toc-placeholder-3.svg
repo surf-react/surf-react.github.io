@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#FFFFFF"/>
+  <line x1="40" y1="200" x2="560" y2="200" stroke="#14262E" stroke-width="2"/>
+  <g fill="#1F3B46">
+    <circle cx="80" cy="222" r="14"/><circle cx="140" cy="222" r="14"/>
+    <circle cx="200" cy="222" r="14"/><circle cx="260" cy="222" r="14"/>
+    <circle cx="320" cy="222" r="14"/><circle cx="380" cy="222" r="14"/>
+    <circle cx="440" cy="222" r="14"/><circle cx="500" cy="222" r="14"/>
+  </g>
+  <path d="M150 120 Q 250 40, 350 120" fill="none" stroke="#B25A2B" stroke-width="3" stroke-dasharray="4 8"/>
+  <circle cx="150" cy="120" r="16" fill="#1F3B46"/>
+  <circle cx="350" cy="120" r="16" fill="#B25A2B"/>
+  <circle cx="378" cy="104" r="11" fill="#1F3B46"/>
+  <text x="300" y="285" text-anchor="middle" font-family="monospace" font-size="18" fill="#55676F">TOC figure 3 — replace with your graphical abstract</text>
+</svg>

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+<article class="page">
+  <header class="page-header">
+    <p class="eyebrow">News</p>
+    <h1>Archive</h1>
+  </header>
+
+  <ul class="archive-list">
+    {% for post in site.posts %}
+    <li class="archive-item">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+      <div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</article>

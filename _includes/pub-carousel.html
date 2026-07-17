@@ -1,0 +1,87 @@
+{% comment %}
+  Front-page publication carousel.
+  Reads _data/featured_publications.yml — edit that file to change slides.
+{% endcomment %}
+<div class="pub-carousel" id="pub-carousel" aria-roledescription="carousel" aria-label="Featured publications">
+  <div class="pub-slides">
+    {% for pub in site.data.featured_publications %}
+    <a class="pub-slide{% if forloop.first %} is-active{% endif %}"
+       href="{{ pub.link }}"
+       aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}"
+       {% unless forloop.first %}tabindex="-1"{% endunless %}
+       aria-label="{{ pub.title }}, {{ pub.journal }} {{ pub.year }}">
+      <div class="pub-slide-img">
+        <img src="{{ pub.image | relative_url }}" alt="Graphical abstract: {{ pub.title }}" loading="lazy">
+      </div>
+      <div class="pub-slide-text">
+        <p class="pub-slide-venue">{{ pub.journal }} · {{ pub.year }}</p>
+        <h3>{{ pub.title }}</h3>
+        <p class="pub-slide-authors">{{ pub.authors }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="pub-dots" role="tablist" aria-label="Choose publication">
+    {% for pub in site.data.featured_publications %}
+    <button class="pub-dot{% if forloop.first %} is-active{% endif %}"
+            role="tab"
+            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+            aria-label="Show publication {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('pub-carousel');
+  if (!root) return;
+  var slides = root.querySelectorAll('.pub-slide');
+  var dots = root.querySelectorAll('.pub-dot');
+  if (slides.length < 2) return;
+
+  var current = 0;
+  var timer = null;
+  var INTERVAL = 6000;
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function show(i) {
+    slides[current].classList.remove('is-active');
+    slides[current].setAttribute('aria-hidden', 'true');
+    slides[current].setAttribute('tabindex', '-1');
+    dots[current].classList.remove('is-active');
+    dots[current].setAttribute('aria-selected', 'false');
+    current = (i + slides.length) % slides.length;
+    slides[current].classList.add('is-active');
+    slides[current].setAttribute('aria-hidden', 'false');
+    slides[current].removeAttribute('tabindex');
+    dots[current].classList.add('is-active');
+    dots[current].setAttribute('aria-selected', 'true');
+  }
+
+  function start() {
+    if (reduceMotion || timer) return;
+    timer = setInterval(function () { show(current + 1); }, INTERVAL);
+  }
+  function stop() {
+    clearInterval(timer);
+    timer = null;
+  }
+
+  dots.forEach(function (dot, i) {
+    dot.addEventListener('click', function () {
+      stop();
+      show(i);
+      start();   // restart the clock so the chosen slide gets full time
+    });
+  });
+
+  // Pause while the reader is hovering or has focus inside the carousel
+  root.addEventListener('mouseenter', stop);
+  root.addEventListener('mouseleave', start);
+  root.addEventListener('focusin', stop);
+  root.addEventListener('focusout', start);
+
+  start();
+})();
+</script>

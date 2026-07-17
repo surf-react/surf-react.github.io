@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} — Reactions at surfaces, computed{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/logo.svg' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}">
+    <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="" width="36" height="36">
+    <span class="brand-name">SurfReact</span>
+  </a>
+
+  <nav class="site-nav" aria-label="Main">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-button" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="nav-list">
+      {% assign items = "Group members|/members/;About|/about/;Publications|/publications/;Open positions|/positions/;Research focus|/research/;Archive|/archive/" | split: ";" %}
+      {% for item in items %}
+        {% assign parts = item | split: "|" %}
+        {% assign target = parts[1] %}
+        <li>
+          <a href="{{ target | relative_url }}"
+             {% if page.url == target %}aria-current="page"{% endif %}>{{ parts[0] }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <p class="footer-title">SurfReact</p>
+      <p>Modelling reactions at solid interfaces.</p>
+    </div>
+    <div>
+      <p class="footer-title">Address</p>
+      <p>Department of Physical Chemistry<br>
+         Faculty of Science, Palacký University Olomouc<br>
+         17. listopadu 12, 779 00 Olomouc, Czechia</p>
+    </div>
+    <div>
+      <p class="footer-title">Contact</p>
+      <p><a href="mailto:surfreact@upol.cz">surfreact@upol.cz</a></p>
+    </div>
+  </div>
+  <p class="footer-note">© {{ 'now' | date: "%Y" }} SurfReact group · Palacký University Olomouc</p>
+</footer>
+
+</body>
+</html>
