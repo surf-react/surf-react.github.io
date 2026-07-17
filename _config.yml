@@ -1,0 +1,25 @@
+title: SurfReact
+description: >-
+  Theoretical chemistry group modelling reactions at solid–gas and
+  solid–liquid interfaces. Department of Physical Chemistry,
+  Palacký University Olomouc, Czechia.
+lang: en
+
+# If the site is served from https://<user>.github.io/<repo>/,
+# set baseurl to "/<repo>". For https://<user>.github.io/ or a
+# custom domain, leave it empty.
+baseurl: ""
+url: ""
+
+permalink: /archive/:year/:month/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
