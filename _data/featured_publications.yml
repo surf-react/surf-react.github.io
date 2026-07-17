@@ -1,0 +1,31 @@
+# Featured publications shown in the front-page carousel, top entry first.
+# Keep exactly the ones you want in the loop (three is ideal; any number works —
+# the dots adjust automatically).
+#
+# To add a new one:
+#   1. Put its TOC/graphical-abstract image into assets/img/toc/
+#      (roughly landscape, e.g. 1200x600 px, jpg/png/svg)
+#   2. Add an entry here following the same fields.
+#
+# "authors" is shown as written; "link" is where the whole card points (DOI).
+
+- title: "Coverage-dependent kinetics of CO oxidation on stepped Pt surfaces from first principles"
+  authors: "A. Author, B. Author, C. Author"
+  journal: "J. Placeholder Chem."
+  year: 2026
+  link: "https://doi.org/10.xxxx/placeholder-1"
+  image: /assets/img/toc/toc-placeholder-1.svg
+
+- title: "Machine-learned potentials for reactive water–oxide interfaces"
+  authors: "A. Author, D. Author"
+  journal: "Placeholder Catal. Lett."
+  year: 2026
+  link: "https://doi.org/10.xxxx/placeholder-2"
+  image: /assets/img/toc/toc-placeholder-2.svg
+
+- title: "CO₂ activation on single-atom catalysts: the role of the support"
+  authors: "C. Author, A. Author"
+  journal: "Placeholder Phys. Chem."
+  year: 2025
+  link: "https://doi.org/10.xxxx/placeholder-3"
+  image: /assets/img/toc/toc-placeholder-3.svg

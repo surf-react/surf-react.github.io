@@ -3,70 +3,31 @@ layout: default
 ---
 
 <section class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Theoretical chemistry · Palacký University Olomouc</p>
-    <h1>Surf<span class="accent">React</span></h1>
-    <p class="tagline">
-      We model chemical reactions where they actually happen on catalysts —
-      at the interfaces of solid surfaces, one elementary step at a time.
-    </p>
+  <div class="hero-inner hero-split">
+    <div class="hero-text">
+      <p class="eyebrow">Theoretical chemistry · Palacký University Olomouc</p>
+      <h1>Surf<span class="accent">React</span></h1>
+      <p class="tagline">
+        We model chemical reactions where they actually happen on catalysts —
+        at the interfaces of solid surfaces, one elementary step at a time.
+      </p>
+    </div>
+    <!-- Replace assets/img/hero.svg with your own image (any format —
+         just update the src accordingly). Roughly square-to-landscape
+         works best, e.g. 1000x800 px. -->
+    <div class="hero-image">
+      <img src="{{ '/assets/img/hero.svg' | relative_url }}"
+           alt="Molecules reacting on a periodic solid surface">
+    </div>
   </div>
+</section>
 
-  <!-- Signature graphic: the interface itself. Gas-phase molecules above
-       the line, a periodic surface lattice below it. -->
-  <svg class="hero-interface" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg"
-       role="img" aria-label="Molecules approaching and reacting on a periodic solid surface">
-    <!-- gas phase -->
-    <g fill="none" stroke-linecap="round">
-      <g stroke="#B25A2B" stroke-width="4">
-        <line x1="150" y1="60" x2="176" y2="46"/>
-        <line x1="620" y1="40" x2="648" y2="52"/>
-      </g>
-      <path d="M180 55 Q 240 90, 300 118" stroke="#B25A2B" stroke-width="2" stroke-dasharray="2 7"/>
-      <path d="M650 55 Q 700 90, 742 118" stroke="#0F6B70" stroke-width="2" stroke-dasharray="2 7"/>
-    </g>
-    <g>
-      <circle cx="148" cy="61" r="9" fill="#B25A2B"/>
-      <circle cx="178" cy="45" r="7" fill="#D98E5B"/>
-      <circle cx="618" cy="39" r="8" fill="#0F6B70"/>
-      <circle cx="650" cy="53" r="8" fill="#0F6B70"/>
-      <circle cx="920" cy="70" r="8" fill="#B25A2B"/>
-      <circle cx="1060" cy="45" r="7" fill="#0F6B70"/>
-    </g>
-    <!-- adsorbates at the interface -->
-    <circle cx="305" cy="122" r="10" fill="#B25A2B"/>
-    <circle cx="745" cy="122" r="10" fill="#0F6B70"/>
-    <!-- interface line -->
-    <line x1="0" y1="140" x2="1200" y2="140" stroke="#14262E" stroke-width="2"/>
-    <!-- top lattice layer -->
-    <g fill="#1F3B46">
-      <circle cx="20" cy="160" r="14"/><circle cx="80" cy="160" r="14"/>
-      <circle cx="140" cy="160" r="14"/><circle cx="200" cy="160" r="14"/>
-      <circle cx="260" cy="160" r="14"/><circle cx="320" cy="160" r="14"/>
-      <circle cx="380" cy="160" r="14"/><circle cx="440" cy="160" r="14"/>
-      <circle cx="500" cy="160" r="14"/><circle cx="560" cy="160" r="14"/>
-      <circle cx="620" cy="160" r="14"/><circle cx="680" cy="160" r="14"/>
-      <circle cx="740" cy="160" r="14"/><circle cx="800" cy="160" r="14"/>
-      <circle cx="860" cy="160" r="14"/><circle cx="920" cy="160" r="14"/>
-      <circle cx="980" cy="160" r="14"/><circle cx="1040" cy="160" r="14"/>
-      <circle cx="1100" cy="160" r="14"/><circle cx="1160" cy="160" r="14"/>
-    </g>
-    <!-- second lattice layer -->
-    <g fill="#14262E">
-      <circle cx="50" cy="196" r="14"/><circle cx="110" cy="196" r="14"/>
-      <circle cx="170" cy="196" r="14"/><circle cx="230" cy="196" r="14"/>
-      <circle cx="290" cy="196" r="14"/><circle cx="350" cy="196" r="14"/>
-      <circle cx="410" cy="196" r="14"/><circle cx="470" cy="196" r="14"/>
-      <circle cx="530" cy="196" r="14"/><circle cx="590" cy="196" r="14"/>
-      <circle cx="650" cy="196" r="14"/><circle cx="710" cy="196" r="14"/>
-      <circle cx="770" cy="196" r="14"/><circle cx="830" cy="196" r="14"/>
-      <circle cx="890" cy="196" r="14"/><circle cx="950" cy="196" r="14"/>
-      <circle cx="1010" cy="196" r="14"/><circle cx="1070" cy="196" r="14"/>
-      <circle cx="1130" cy="196" r="14"/><circle cx="1190" cy="196" r="14"/>
-    </g>
-    <!-- bulk -->
-    <rect x="0" y="210" width="1200" height="30" fill="#14262E"/>
-  </svg>
+<section class="section">
+  <div class="section-inner">
+    <p class="eyebrow">Featured</p>
+    <h2>Recent publications</h2>
+    {% include pub-carousel.html %}
+  </div>
 </section>
 
 <section class="section section-dark">
@@ -75,7 +36,7 @@ layout: default
     <h2>Latest updates</h2>
 
     <div class="updates-grid">
-      {% for post in site.posts limit: 3 %}
+      {% for post in site.posts limit: 2 %}
       <article class="update-card">
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

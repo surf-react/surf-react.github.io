@@ -46,9 +46,11 @@ bundle exec jekyll serve
 | Publications | `pages/publications.html` |
 | Open positions | `pages/positions.md` |
 | Research focus | `pages/research.md` |
+| Featured publications carousel (front page) | `_data/featured_publications.yml` + TOC images in `assets/img/toc/` |
 | Navigation menu | `_layouts/default.html` (the `items` list) |
 | Footer address / e-mail | `_layouts/default.html` |
 | Colors, fonts, layout | `assets/css/style.css` (design tokens at the top) |
+| Hero image (landing page, right of the title) | replace `assets/img/hero.svg` (or edit the `src` in `index.html`) |
 | Logo | `assets/img/logo.svg` |
 
 All people, publications, and posts currently in the repo are **plausible placeholders** — replace them with your real content.
@@ -58,10 +60,12 @@ All people, publications, and posts currently in the repo are **plausible placeh
 ```
 ├── _config.yml          # site settings (title, baseurl, permalinks)
 ├── _layouts/            # page templates (default, page, post)
+├── _includes/           # reusable snippets (publication carousel)
+├── _data/               # featured_publications.yml — front-page carousel entries
 ├── _posts/              # news updates (one Markdown file per update)
 ├── pages/               # members, about, publications, positions, research, archive
 ├── assets/
 │   ├── css/style.css    # all styling
-│   └── img/logo.svg     # group logo
+│   └── img/             # logo.svg + toc/ (graphical abstracts for the carousel)
 └── index.html           # landing page (hero + latest three updates)
 ```
