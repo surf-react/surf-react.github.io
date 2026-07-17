@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<article class="page bio-page">
+  <div class="bio-grid">
+
+    <aside class="bio-side">
+      {% if page.photo %}
+        <img class="bio-photo" src="{{ page.photo | relative_url }}" alt="Portrait of {{ page.title }}">
+      {% else %}
+        <div class="bio-photo bio-photo-fallback" aria-hidden="true">{{ page.initials | default: "•" }}</div>
+      {% endif %}
+
+      {% if page.role %}<p class="bio-role">{{ page.role }}</p>{% endif %}
+
+      {% if page.links %}
+      <ul class="bio-links">
+        {% for link in page.links %}
+        <li><a href="{{ link.url }}" rel="me noopener">{{ link.label }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if page.email %}
+      <p class="bio-email">{{ page.email }}</p>
+      {% endif %}
+    </aside>
+
+    <div class="bio-main">
+      <header class="page-header">
+        <p class="eyebrow">Group member</p>
+        <h1>{{ page.title }}</h1>
+      </header>
+      <div class="prose">
+        {{ content }}
+      </div>
+      <p class="back-link"><a href="{{ '/members/' | relative_url }}">← All members</a></p>
+    </div>
+
+  </div>
+</article>
