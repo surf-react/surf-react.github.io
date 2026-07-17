@@ -9,9 +9,20 @@ lang: en
 # set baseurl to "/<repo>". For https://<user>.github.io/ or a
 # custom domain, leave it empty.
 baseurl: ""
-url: ""
+url: "https://surf-react.github.io"
 
 permalink: /archive/:year/:month/:title/
+
+# SEO: both plugins are whitelisted and bundled by GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Used by jekyll-seo-tag for meta tags and JSON-LD
+author: SurfReact group
+twitter:
+  card: summary_large_image
+logo: /assets/img/logo.svg
 
 markdown: kramdown
 kramdown:

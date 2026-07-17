@@ -565,3 +565,87 @@ h1, h2, h3 {
   .pub-slide-img { border-right: none; border-bottom: 1px solid var(--line); max-height: 200px; }
   .pub-slides { min-height: 420px; }
 }
+
+/* ----------------------------------------------------------
+   Individual bio pages
+   ---------------------------------------------------------- */
+
+.bio-page {
+  /* wider than a plain text page: sidebar + text column */
+  max-width: calc(var(--measure) + 220px + 3rem + 2 * var(--pad));
+}
+
+.bio-grid {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+}
+
+.bio-side {
+  position: sticky;
+  top: 5.5rem; /* clears the sticky header */
+}
+
+.bio-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
+.bio-photo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--deep);
+  color: var(--white);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.bio-role {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 1rem 0 0.6rem;
+}
+
+.bio-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.bio-links li {
+  border-bottom: 1px solid var(--line);
+}
+
+.bio-links a {
+  display: block;
+  padding: 0.55rem 0;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.bio-links a::after {
+  content: " ↗";
+  color: var(--muted);
+}
+
+.bio-email {
+  margin: 0.8rem 0 0;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .bio-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .bio-side { position: static; max-width: 240px; }
+}
