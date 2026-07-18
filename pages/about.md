@@ -11,7 +11,7 @@ We use computational methods to understand how chemical reactions proceed at the
 
 ## What drives us
 
-Experiments can tell you *that* a surface reaction happens; theory can tell you *why* and *how fast*, atom by atom. We aim to close that gap: to build models accurate enough to be predictive and cheap enough to explore realistic interfaces — defects, coverage effects, solvents and all.
+Experiments can tell you that a surface reaction *happens*; theory can tell you *why* and *how fast*, atom by atom. We aim to close that gap, to build models accurate enough to be predictive and cheap enough to explore realistic interfaces — defects, coverage effects, solvents and all.
 
 ## Collaboration
 
