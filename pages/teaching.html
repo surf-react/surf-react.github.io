@@ -1,0 +1,43 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+<article class="page">
+  <header class="page-header">
+    <p class="eyebrow">Courses</p>
+    <h1>Teaching</h1>
+  </header>
+
+  <div class="prose">
+    <p>Courses taught or co-taught by members of the group at the Department of
+    Physical Chemistry. Click a course for details.</p>
+  </div>
+
+  <div class="course-list">
+    {% for course in site.data.courses %}
+    <details class="course-card">
+      <summary>
+        <span class="course-code">{{ course.code }}</span>
+        <span class="course-name">{{ course.name }}</span>
+        <span class="course-chevron" aria-hidden="true">▾</span>
+      </summary>
+      <div class="course-body">
+        {% if course.semester or course.lecturer %}
+        <p class="course-meta">
+          {% if course.semester %}{{ course.semester }} semester{% endif %}
+          {% if course.semester and course.lecturer %} · {% endif %}
+          {% if course.lecturer %}{{ course.lecturer }}{% endif %}
+        </p>
+        {% endif %}
+        {% if course.description %}
+        <p>{{ course.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+        {% if course.link %}
+        <p class="course-link"><a href="{{ course.link }}">Course in STAG ↗</a></p>
+        {% endif %}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</article>

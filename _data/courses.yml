@@ -1,0 +1,74 @@
+# Courses shown on the Teaching page, in this order.
+# Every field except "code" and "name" is optional — omit what you don't need.
+#
+#   code:        course code as in STAG
+#   name:        course title
+#   semester:    e.g. "Winter" / "Summer"
+#   lecturer:    who teaches it
+#   description: free text shown when the card is opened (Markdown works)
+#   link:        e.g. the STAG/syllabus URL, shown as a button in the open card
+
+- code: KFC/CHSE1
+  name: Chemistry seminar 1
+  semester: Winter
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    Introduction to chemical nomenclature and basic chemical calculation problems. Practicing calculus, rounding, units conversion, and drawing chemical structures.
+
+- code: KFC/CHSE2
+  name: Chemistry seminar 2
+  semester: Summer
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    Concentration, mixing rules, pH calculation, yields, stoichiometry of redox reactions, thermochemistry, electrolysis.
+
+- code: KFC/SBP
+  name: Bachelor thesis seminar
+  semester: Summer
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The aim of this course is to teach the students how to process a literary search for their thesis. Work with library sources, work out a first literary research, presentation ona  chosen research paper.
+
+- code: KFC/BOS1
+  name: Branch seminar 1
+  semester: Winter
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The students present their first thesis-related presentation and submit a thorough literary research.
+
+- code: KFC/BOSA1
+  name: Branch seminar 1
+  semester: Winter
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The students present their first thesis-related presentation and submit a thorough literary research.
+
+- code: KFC/MRSA
+  name: Scanning probe microscopy
+  semester: Winter
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The aim of this course is to provide deeper foundations of scanning probe microscopes and their applications in contemporary science. We discuss the basic theory and engineering design of scanning tunneling microscopes and atomic force microscopes.
+
+- code: KFC/MOMAT
+  name: Modeling of materials and nanomaterials
+  semester: Winter
+  lecturer: Mgr. Adam Matěj, Ph.D. and Mgr. Jan Navrátil, Ph.D.
+  description: >-
+    The subject is focused on application of quantum chemistry and solid state physics in the field of nanomaterials.
+
+- code: KFC/STD
+  name: Statistical thermodynamics
+  semester: Winter
+  lecturer: Mgr. Jan Navrátil, Ph.D.
+  description: >-
+    This course deals with fundamental statistical thermodynamics and its applications in chemical disciplines.
+
+- code: KFC/TL
+  name: Technological laboratories
+  semester: Winter and Summer
+  lecturer: Mgr. Matěj Navrátil
+  description: >-
+    Introduction to quantum chemistry: Schrödinger equation, atomic and
+    molecular orbitals, Hartree–Fock theory, and a first look at electron
+    correlation. Exercises include hands-on calculations on small molecules.

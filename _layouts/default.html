@@ -25,7 +25,7 @@
       <span></span><span></span><span></span>
     </label>
     <ul class="nav-list">
-      {% assign items = "Group members|/members/;About|/about/;Publications|/publications/;Open positions|/positions/;Research focus|/research/;Archive|/archive/" | split: ";" %}
+      {% assign items = "Group members|/members/;About|/about/;Publications|/publications/;Open positions|/positions/;Research focus|/research/;Archive|/archive/;Teaching|/teaching/" | split: ";" %}
       {% for item in items %}
         {% assign parts = item | split: "|" %}
         {% assign target = parts[1] %}
