@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 500 325.17532"
+   viewBox="0 0 500 248.58297"
    role="img"
    aria-label="Molecules reacting on a periodic solid surface"
    version="1.1"
    id="svg30"
-   sodipodi:docname="hero.svg"
+   sodipodi:docname="hero2.svg"
    width="500"
-   height="325.17532"
+   height="248.58298"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,28 +25,37 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:export-bgcolor="#ffffffff"
-     inkscape:zoom="1.0402087"
-     inkscape:cx="262.928"
-     inkscape:cy="43.260548"
+     inkscape:zoom="0.78336802"
+     inkscape:cx="224.03263"
+     inkscape:cy="11.488853"
      inkscape:window-width="1496"
      inkscape:window-height="839"
      inkscape:window-x="8"
      inkscape:window-y="46"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g36">
+     inkscape:current-layer="svg30">
     <inkscape:page
        x="0"
        y="0"
        width="500"
-       height="325.17532"
+       height="248.58298"
        id="page30"
        margin="0 0 0"
        bleed="0" />
   </sodipodi:namedview>
   <!-- gas phase -->
   <!-- adsorbates at the interface -->
+  <rect
+     style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.95402;stroke-linecap:round;stroke-miterlimit:20;stroke-opacity:1"
+     id="rect36"
+     width="500"
+     height="248.58298"
+     x="0"
+     y="76.592354"
+     transform="translate(0,-76.592355)" />
   <g
-     id="g35">
+     id="g35"
+     transform="translate(0,-76.592355)">
     <path
        d="m 89.32263,184.59084 q 26.61074,-0.35282 45.23826,-0.66073"
        stroke="#b25a2b"
@@ -91,7 +100,8 @@
        id="circle6" />
   </g>
   <g
-     id="g32">
+     id="g32"
+     transform="translate(0,-76.592355)">
     <g
        id="g34"
        transform="translate(26.205249,0.58233887)">
@@ -127,16 +137,17 @@
   <!-- interface line -->
   <line
      x1="0"
-     y1="206"
+     y1="129.40764"
      x2="500"
-     y2="206"
+     y2="129.40764"
      stroke="#14262e"
      stroke-width="2"
      id="line7" />
   <!-- lattice layers -->
   <g
      fill="#1f3b46"
-     id="g15">
+     id="g15"
+     transform="translate(0,-76.592355)">
     <circle
        cx="25"
        cy="228"
@@ -180,7 +191,8 @@
   </g>
   <g
      fill="#14262e"
-     id="g22">
+     id="g22"
+     transform="translate(0,-76.592355)">
     <circle
        cx="58"
        cy="266"
@@ -219,7 +231,8 @@
   </g>
   <g
      fill="#1f3b46"
-     id="g30">
+     id="g30"
+     transform="translate(0,-76.592355)">
     <circle
        cx="25"
        cy="304"
@@ -262,7 +275,9 @@
        id="circle30" />
   </g>
   <g
-     id="g36">
+     id="g36"
+     transform="translate(0,-76.592355)"
+     style="display:inline">
     <path
        d="m 247.82721,145.215 q 11.08001,17.75871 18.83602,33.25696"
        stroke="#b25a2b"
