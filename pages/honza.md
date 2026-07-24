@@ -25,3 +25,7 @@ Honza works on...
 ## Short CV
 
 - **2026–now** — junior researcher SurfReact
+
+## Selected papers
+
+- Ahmad R. *et al.*, Band engineering in iron and silver co-doped double perovskite nanocrystals for selective photocatalytic CO<sub>2</sub> reduction. [J. Mater. Chem. A](https://pubs.rsc.org/ta/article/12/34/23035/873175/Band-engineering-in-iron-and-silver-co-doped) **2024**; 12 (34): 23035–23048.
