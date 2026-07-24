@@ -43,11 +43,12 @@ Adam works on on-surface chemistry and the electronic structure of molecules at 
 
 ## Short CV
 
-- **2026–now** — Group leader, SurfReact, Palacký University Olomouc
+- **2026–now** — Group leader, SurfReact, Department of Physical Chemistry, Palacký University Olomouc
 - **2024–2026** — Postdoc at Georgetown University, Washington, DC, USA (Miklos Kertesz)
 - **2022** — 3-months internship at Texas Tech University, Lubbock, TX, USA (Hans Lischka)
-- **2019–2023** — Ph.D., Palacký University Olomouc (Pavel Jelínek)
-- **2019—now** — Ph.D. student and postdoc in Nanosurf group, Institute of Physics of the Czech Academy of Sciences (Pavel Jelínek)
+- **2019–2023** — Ph.D., Department of Physical Chemistry, Palacký University Olomouc (Pavel Jelínek)
+- **2019—now** — Researcher in Nanosurf group, Institute of Physics of the Czech Academy of Sciences (Pavel Jelínek)
+- **2019-now** — Researcher at Department of Physical Chemistry, Palacký University Olomouc
 
 ## Selected papers
 - Timm M. J. *et al.*, Spatially resolving the cone of reaction for a single molecule. [Science](https://www.science.org/doi/10.1126/science.aec7913) **2026**; 393, 6809, 417-421.
