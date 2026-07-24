@@ -8,22 +8,22 @@
 #   2. Add an entry here following the same fields.
 #
 # "authors" is shown as written; "link" is where the whole card points (DOI).
-- title: "Spatially resolving the cone of reaction for a single molecule"
-  authors: "M. J. Timm <em>et al.</em>"
+- title: "Spatially Resolving the Cone of Reaction for a Single Molecule"
+  authors: "M. J. Timm, <strong>A. Matěj</strong>, I. Gazizullin, Q. Chen, S. Hecht, P. Jelínek, L. Grill"
   journal: "Science"
   year: 2026
   link: "https://doi.org/10.1126/science.aec7913"
   image: /assets/img/toc/toc_science.jpg
 
 - title: "Cluster-enabled control of single-electron photoredox catalysis in reticular frameworks"
-  authors: "C. Chinchilla-Garzón <em>et al.</em>"
+  authors: "C. Chinchilla-Garzón, E. Rivera-Chao, M. Gomez-Mendoza, B. J. C. Vieira, N. Almora-Barrios, P. Gimeno-Fonquernie, J. Castells-Gil, R. Vismara, <strong>J. Navrátil</strong>, P. Błoński, V. A. de la Peña O’Shea, J. C. Waerenborgh, C. Martí-Gastaldo, N. M. Padial"
   journal: "Chem"
   year: 2026
   link: "https://doi.org/10.1016/j.chempr.2026.103074"
   image: /assets/img/toc/toc_chem.jpg
   
 - title: "Designing Pancake-Bonded Heterodimers for Scanning Probe Microscopy"
-  authors: "A. Matěj and M. Kertesz"
+  authors: "<strong>A. Matěj</strong> and M. Kertesz"
   journal: "J. Phys. Chem. A"
   year: 2026
   link: "https://pubs.acs.org/doi/10.1021/acs.jpca.5c08063"
