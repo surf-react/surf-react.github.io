@@ -26,7 +26,7 @@ layout: default
       {% endif %}
 
       {% if page.skills %}
-      <p class="bio-skills"></p>
+      <p class="bio-skills">{{ page.skills | join: ' · ' }}</p>
       {% endif %}
     </aside>
 
