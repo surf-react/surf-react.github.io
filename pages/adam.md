@@ -14,6 +14,13 @@ links:
     url: https://www.researchgate.net/profile/Adam-Matej
   - label: Twitter
     url: https://x.com/ada_matej
+skills:
+  - DFT
+  - CASSCF
+  - STM
+  - Orca
+  - FHI-AIMS
+  - Gaussian
 ---
 
 Adam works on on-surface chemistry and the electronic structure of molecules at metalic surfaces, combining DFT with multiscale approaches. His skills include modelling elementary reaction steps and proposing complete reaction pathways based on calculated free energies. Additionally, he can calculate various molecular properties of PAHs, including numerous aromaticity descriptors. In connection to SPM, he's able to calculate AFM and STM images for comparison with experiments.
