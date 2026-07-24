@@ -645,6 +645,13 @@ h1, h2, h3 {
   overflow-wrap: anywhere;
 }
 
+.bio-skills {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+}
+
 @media (max-width: 700px) {
   .bio-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .bio-side { position: static; max-width: 240px; }
