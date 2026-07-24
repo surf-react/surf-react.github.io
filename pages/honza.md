@@ -7,7 +7,7 @@ initials: JN
 # Drop your portrait into assets/img/people/ and uncomment:
 # photo: /assets/img/people/honza.jpg
 email: jan.navratil [at] upol.cz
-#links:
+links:
   - label: ORCID
     url: https://orcid.org/0000-0002-8961-5997
 #  - label: ResearchGate
