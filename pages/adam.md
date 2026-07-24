@@ -51,10 +51,10 @@ Adam works on on-surface chemistry and the electronic structure of molecules at 
 - **2019-now** — Researcher at Department of Physical Chemistry, Palacký University Olomouc
 
 ## Selected papers
-- Timm M. J. *et al.*, Spatially resolving the cone of reaction for a single molecule. [Science](https://www.science.org/doi/10.1126/science.aec7913) **2026**; 393, 6809, 417-421.
+- Timm M. J. *et al.*, Spatially Resolving the Cone of Reaction for a Single Molecule. [Science](https://www.science.org/doi/10.1126/science.aec7913) **2026**; 393, 6809, 417-421.
 
 - Frezza F. *et al.*, On-Surface Synthesis of a Radical 2D Supramolecular Organic Framework. [J. Am. Chem. Soc.](https://doi.org/10.1021/jacs.3c13702) **2024**; 146, 5, 3531-3538.
 
 - Lowe B. *et al.*, Selective Activation of Aromatic C–H Bonds Catalyzed by Single Gold Atoms at Room Temperature. [J. Am. Chem. Soc.](https://doi.org/10.1021/jacs.2c10154) **2022**; 144, 46, 21389-21397.
 
-- Lawrence J. *et al.*, Circumventing the stability problems of graphene nanoribbon zigzag edges. [Nat. Chem.](https://doi.org/10.1038/s41557-022-01042-8) **2022**; 14, 12, 1451, 1458. 
+- Lawrence J. *et al.*, Circumventing the Stability Problems of Graphene Nanoribbon Zigzag Edges. [Nat. Chem.](https://doi.org/10.1038/s41557-022-01042-8) **2022**; 14, 12, 1451, 1458. 
