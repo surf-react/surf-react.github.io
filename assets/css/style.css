@@ -363,6 +363,12 @@ h1, h2, h3 {
    Publications
    ---------------------------------------------------------- */
 
+.pub-section {
+  text-transform: uppercase;
+  color: var(--teal);
+  font-size: 1.15rem;
+}
+
 .pub-year {
   font-family: var(--font-mono);
   font-size: 0.9rem;
