@@ -9,14 +9,14 @@
 #
 # "authors" is shown as written; "link" is where the whole card points (DOI).
 - title: "Spatially resolving the cone of reaction for a single molecule"
-  authors: "M. J. Timm et al."
+  authors: "M. J. Timm <em>et al.</em>"
   journal: "Science"
   year: 2026
   link: "https://doi.org/10.1126/science.aec7913"
   image: /assets/img/toc/toc_science.jpg
 
 - title: "Cluster-enabled control of single-electron photoredox catalysis in reticular frameworks"
-  authors: "C. Chinchilla-Garzón et al."
+  authors: "C. Chinchilla-Garzón <em>et al.</em>"
   journal: "Chem"
   year: 2026
   link: "https://doi.org/10.1016/j.chempr.2026.103074"
