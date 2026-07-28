@@ -24,7 +24,7 @@ permalink: /topics/
       <div class="topics-body">
         {% if topics.semester or topics.lecturer %}
         <p class="topics-meta">
-          {% if topics.semester %}{{ topics.semester }} semester{% endif %}
+          {% if topics.semester %}{{ topics.semester }}{% endif %}
           {% if topics.semester and topics.lecturer %} · {% endif %}
           {% if topics.lecturer %}{{ topics.lecturer }}{% endif %}
         </p>
