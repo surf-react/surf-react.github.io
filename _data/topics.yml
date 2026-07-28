@@ -1,0 +1,21 @@
+# Courses shown on the Teaching page, in this order.
+# Every field except "code" and "name" is optional — omit what you don't need.
+#
+#   code:        course code as in STAG
+#   name:        topic title
+#   semester:    Bachelor or Master thesis
+#   lecturer:    who teaches it
+#   description: free text shown when the card is opened (Markdown works)
+#   link:        e.g. the STAG/syllabus URL, shown as a button in the open card
+
+- name: Topic 1
+  semester: Bachelor
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The students present their first thesis-related presentation and submit a thorough literary research.
+
+- name: Topic 2
+  semester: Master
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    The students present their first thesis-related presentation and submit a thorough literary research.
