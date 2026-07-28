@@ -44,8 +44,8 @@ body {
   flex-direction: column;
 }
 
-body > footer {
-  margin-top: auto;
+main {
+  flex: 1 0 auto;   /* grows to fill leftover space, shrinks to nothing below its content */
 }
 
 a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 3px; }
@@ -440,6 +440,7 @@ h1, h2, h3 {
   color: #B9C9CD;
   padding: 3rem var(--pad) 2rem;
   font-size: 0.93rem;
+  flex-shrink: 0;
 }
 
 .footer-grid {
