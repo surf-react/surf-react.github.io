@@ -25,7 +25,8 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth;
+     height: 100%; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
@@ -38,6 +39,13 @@ body {
   line-height: 1.65;
   color: var(--ink);
   background: var(--paper);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > footer {
+  margin-top: auto;
 }
 
 a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 3px; }
