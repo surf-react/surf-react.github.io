@@ -21,7 +21,7 @@ Parametrizing new surface-suitable forcefields for accurate QM/MM calculations, 
 
 ## Tight collaboration with scanning probe microscopy
 
-SPM under ultra-high vacuum yields the ultimate control over reaction conditions and resolution of imaging down to single bonds. A direct comparison of simulated nc-AFM and STM images with experiments allows for model justification and a detailed insight into electronis structure.
+SPM under ultra-high vacuum yields the ultimate control over reaction conditions and resolution of imaging down to single bonds. A direct comparison of simulated nc-AFM and STM images with experiments allows for model justification and a detailed insight into electronic structure.
 
 ---
 
