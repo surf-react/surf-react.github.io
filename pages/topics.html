@@ -1,0 +1,42 @@
+---
+layout: default
+title: Available student topics
+permalink: /topics/
+---
+<article class="page">
+  <header class="page-header">
+    <p class="eyebrow">Up to date available projects</p>
+    <h1>Topics</h1>
+  </header>
+
+  <div class="prose">
+    <p>This list is maintained to reflect the current group focus as well as availability of individual supervisors. If you'd like to work on your thesis with us and you don't see an interesting topic, don't hesitate to contact us with your ideas!</p>
+  </div>
+
+  <div class="course-list">
+    {% for course in site.data.courses %}
+    <details class="course-card">
+      <summary>
+        <span class="course-code">{{ course.code }}</span>
+        <span class="course-name">{{ course.name }}</span>
+        <span class="course-chevron" aria-hidden="true">▾</span>
+      </summary>
+      <div class="course-body">
+        {% if course.semester or course.lecturer %}
+        <p class="course-meta">
+          {% if course.semester %}{{ course.semester }} semester{% endif %}
+          {% if course.semester and course.lecturer %} · {% endif %}
+          {% if course.lecturer %}{{ course.lecturer }}{% endif %}
+        </p>
+        {% endif %}
+        {% if course.description %}
+        <p>{{ course.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+        {% if course.link %}
+        <p class="course-link"><a href="{{ course.link }}">Course in STAG ↗</a></p>
+        {% endif %}
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</article>
