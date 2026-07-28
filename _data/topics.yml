@@ -38,7 +38,7 @@
   description: >-
    Efforts to understand the relationship between the structure of a material and its properties have been underway for a very long time. Using computational chemistry methods, it is possible to calculate the properties of a given material when its structure is known, but explaining these properties may not always be simple. To fully understand a given issue, it is often necessary to perform many calculations on similar materials and observe how the investigated properties change. However, when evaluating a large amount of data, it is very difficult to correctly observe all dependencies with the naked eye. Therefore, machine learning methods are used, which greatly simplify this entire process. When solving this thesis, the student will learn to perform basic DFT calculations and also learn to work with machine learning methods, which can be used when processing a large amount of data, not only in theoretical chemistry.
 
-- name: Building software for symplification of theoretical calculations
+- name: Building software for simplification of theoretical calculations
   semester: Bachelor
   lecturer: Mgr. Jan Navrátil
   description: >-
