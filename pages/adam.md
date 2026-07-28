@@ -23,7 +23,7 @@ skills:
   - Gaussian
 ---
 
-Adam works on on-surface chemistry and the electronic structure of molecules at metalic surfaces, combining DFT with multiscale approaches. His skills include modelling elementary reaction steps and proposing complete reaction pathways based on calculated free energies. Additionally, he can calculate various molecular properties of PAHs, including numerous aromaticity descriptors. In connection to SPM, he's able to calculate AFM and STM images for comparison with experiments.
+Adam works on on-surface chemistry and the electronic structure of molecules at metallic surfaces, combining DFT with multiscale approaches. His skills include modelling elementary reaction steps and proposing complete reaction pathways based on calculated free energies. Additionally, he can calculate various molecular properties of PAHs, including numerous aromaticity descriptors. In connection to SPM, he's able to calculate AFM and STM images for comparison with experiments.
 
 ## Research interests
 
@@ -39,7 +39,7 @@ Adam works on on-surface chemistry and the electronic structure of molecules at 
 
 ### Past
 
-- Endowment fund of Palacký Univeristy Olomouc funded the 3-month internship at TTU.
+- Endowment fund of Palacký University Olomouc funded the 3-month internship at TTU.
 
 ## Short CV
 
