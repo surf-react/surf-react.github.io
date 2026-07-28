@@ -8,14 +8,38 @@
 #   description: free text shown when the card is opened (Markdown works)
 #   link:        e.g. the STAG/syllabus URL, shown as a button in the open card
 
-- name: Topic 1
+- name: Theoretical study of conjugated molecules
   semester: Bachelor
   lecturer: Mgr. Adam Matěj, Ph.D.
   description: >-
-    The students present their first thesis-related presentation and submit a thorough literary research.
+    Organic molecules and nanomaterials are promising candidates for the development of new technologies without the use of expensive and toxic heavy metals. The aim of this work will be to master the basic techniques of computational chemistry, especially density functional theory, and the techniques available within them for describing the electronic structure of molecular structures. Emphasis will be given on aromaticity indices, electron delocalization, diradical character and other molecular properties.
 
-- name: Topic 2
-  semester: Master
+- name: Study of reaction pathways using computational chemistry
+  semester: Bachelor & master
   lecturer: Mgr. Adam Matěj, Ph.D.
   description: >-
-    The students present their first thesis-related presentation and submit a thorough literary research.
+    Synthesis is an essential part of chemistry. However, in order to achieve the desired and effective chemical reaction, it is necessary to know the mechanism by which it occurs. The study of reaction mechanisms using computational chemistry offers fundamental insight into the effects that influence how the reaction will proceed. The aim of this work will be to master the techniques of studying the reaction mechanisms of selected systems within heterogeneous catalysis.
+
+- name: Molecular self-assembly of precursors for on-surface synthesis
+  semester: Bachelor & master
+  lecturer: Mgr. Adam Matěj, Ph.D.
+  description: >-
+    A young branch of heterogeneous catalysis at the interface of chemistry, physics and surface science is surface synthesis in ultrahigh vacuum. Due to the absence of solvent and atmosphere, this method unlocks new chemical reactions that are often controlled exclusively by intermolecular interactions and interactions with the surface. The design of precursors to optimize these interactions allows the formation of self-assembly with desired properties or even transformation into two-dimensional homogeneous networks. The aim of this work will be to describe the types of interactions, their descriptors and to study how their change affects the resulting arrangement of precursors on solid surfaces.
+
+- name: DFT calculations of properties and reactivity of low-dimensional materials
+  semester: Bachelor & master
+  lecturer: Mgr. Jan Navrátil
+  description: >-
+    Using computational chemistry, specifically density functional theory (DFT), it is possible to examine in detail the properties of materials, or partial steps of chemical reactions at the level of individual atoms. Within this topic, it is possible to focus on various research directions, the most important of which are heterogeneous catalysis and magnetism. In heterogeneous catalysis, reactions belonging to "green chemistry" are investigated, i.e. serving the sustainability of our civilization, for example, the production of hydrogen from water or the reduction of carbon dioxide. The student can also choose another suitable reaction that interests him. Calculations can specialize either in detailed characterization of the catalyst and the possibility of increasing its efficiency, or in a detailed description of individual reaction steps with an emphasis on revealing the critical step. The optimal output is the design of a suitably modified catalyst that will help overcome the critical step. In the field of magnetism, the greatest emphasis is placed on materials potentially applicable in magnetic data storage or in spintronics. Both of these areas are now being intensively investigated with the potential to improve current electrical devices. While fulfilling the objectives of this thesis, the student will acquire the basic methods of DFT calculations, which are now part of most major scientific publications. This work can be appropriately expanded during subsequent studies.
+
+- name: Employing machine learning for processing of DFT calculations
+  semester: Bachelor & master
+  lecturer: Mgr. Jan Navrátil
+  description: >-
+   Efforts to understand the relationship between the structure of a material and its properties have been underway for a very long time. Using computational chemistry methods, it is possible to calculate the properties of a given material when its structure is known, but explaining these properties may not always be simple. To fully understand a given issue, it is often necessary to perform many calculations on similar materials and observe how the investigated properties change. However, when evaluating a large amount of data, it is very difficult to correctly observe all dependencies with the naked eye. Therefore, machine learning methods are used, which greatly simplify this entire process. When solving this thesis, the student will learn to perform basic DFT calculations and also learn to work with machine learning methods, which can be used when processing a large amount of data, not only in theoretical chemistry.
+
+- name: Building software for symplification of theoretical calculations
+  semester: Bachelor
+  lecturer: Mgr. Jan Navrátil
+  description: >-
+    Most theoretical calculations are currently entered and exported in text files, and then it is possible to perform evaluations, for example, display the structure, using other software. Every computational chemist has found his own way to make this work as easy as possible, but most of the time, even then, all these tasks remain unnecessarily long. The aim of this work is to reveal steps that could be optimized and to overcome them by creating his own software. The student will understand the basic principles of calculations in computational chemistry and will learn to script and program an application for automatic data processing, which he can use in the future not only in computational chemistry.
