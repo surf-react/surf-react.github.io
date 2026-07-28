@@ -13,27 +13,27 @@ permalink: /topics/
     <p>This list is maintained to reflect the current group focus as well as availability of individual supervisors. If you'd like to work on your thesis with us and you don't see an interesting topic, don't hesitate to contact us with your ideas!</p>
   </div>
 
-  <div class="course-list">
-    {% for course in site.data.courses %}
-    <details class="course-card">
+  <div class="topics-list">
+    {% for topics in site.data.topicss %}
+    <details class="topics-card">
       <summary>
-        <span class="course-code">{{ course.code }}</span>
-        <span class="course-name">{{ course.name }}</span>
-        <span class="course-chevron" aria-hidden="true">▾</span>
+        <span class="topics-code">{{ topics.code }}</span>
+        <span class="topics-name">{{ topics.name }}</span>
+        <span class="topics-chevron" aria-hidden="true">▾</span>
       </summary>
-      <div class="course-body">
-        {% if course.semester or course.lecturer %}
-        <p class="course-meta">
-          {% if course.semester %}{{ course.semester }} semester{% endif %}
-          {% if course.semester and course.lecturer %} · {% endif %}
-          {% if course.lecturer %}{{ course.lecturer }}{% endif %}
+      <div class="topics-body">
+        {% if topics.semester or topics.lecturer %}
+        <p class="topics-meta">
+          {% if topics.semester %}{{ topics.semester }} semester{% endif %}
+          {% if topics.semester and topics.lecturer %} · {% endif %}
+          {% if topics.lecturer %}{{ topics.lecturer }}{% endif %}
         </p>
         {% endif %}
-        {% if course.description %}
-        <p>{{ course.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% if topics.description %}
+        <p>{{ topics.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
-        {% if course.link %}
-        <p class="course-link"><a href="{{ course.link }}">Course in STAG ↗</a></p>
+        {% if topics.link %}
+        <p class="topics-link"><a href="{{ topics.link }}">topics in STAG ↗</a></p>
         {% endif %}
       </div>
     </details>
