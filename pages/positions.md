@@ -9,4 +9,4 @@ We are always interested in curious people who want to compute chemistry at surf
 
 ## M.Sc. and bachelor projects
 
-Topics in adsorption thermodynamics, reaction path finding, method development, and reaction kinetics are available every semester for students of Palacký University. Stop by the department or write to us.
+[Topics]({{ '/topics/' | relative_url }}) in adsorption thermodynamics, reaction path finding, method development, and reaction kinetics are available every semester for students of Palacký University. Stop by the department or write to us.
