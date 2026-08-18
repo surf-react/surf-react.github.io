@@ -29,20 +29,20 @@ Adam works on on-surface chemistry and the electronic structure of molecules at 
 
 - On-surface synthesis and reaction mechanisms
 - Electronic structure of adsorbed molecules
-- Scanning-probe simulation
+- Scanning-probe microscopy simulations
 - Evaluation of the accuracy of various multiscale methods
 
 ## Funding
 ### Running
 
-- **2024—2027** — Czech Science Foundation (GARČ) project nr. 24-10142O from the Postod Individual Fellowship — Outgoing programme, titled *Inducing Open-shell Ground State in Conjugated Hydrocarbons*.
+- **2024—2027** — Czech Science Foundation (GAČR) project nr. 24-10142O from the Postdoc Individual Fellowship — Outgoing program, titled *Inducing Open-shell Ground State in Conjugated Hydrocarbons*.
 
 ### Past
 
 - Endowment fund of Palacký University Olomouc funded the 3-month internship at TTU.
 
 ## Short CV
-
+- **2026-now** – Chairman of the [Czech Young Chemist Association](https://www.facebook.com/Asociacemladychchemiku)
 - **2026–now** — Group leader, SurfReact, Department of Physical Chemistry, Palacký University Olomouc
 - **2024–2026** — Postdoc at Georgetown University, Washington, DC, USA (Miklos Kertesz)
 - **2022** — 3-months internship at Texas Tech University, Lubbock, TX, USA (Hans Lischka)
