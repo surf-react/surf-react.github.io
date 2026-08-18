@@ -345,6 +345,18 @@ h1, h2, h3 {
   padding: clamp(2.5rem, 6vw, 4rem) var(--pad) 4rem;
 }
 
+/* Widen content pages that hold lists/grids to match the hero & sections,
+   while leaving running-text pages (About, Research, bios) at a readable width. */
+.page:has(.member-list, .pub-list, .topics-list, .course-list, .archive-list) {
+  max-width: 1100px;
+}
+
+/* Keep paragraphs readable even inside those now-wider pages
+   (e.g. the intro sentence on the Topics and Teaching pages). */
+.prose {
+  max-width: var(--measure);
+}
+
 .page-header h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   margin: 0 0 1.5rem;
