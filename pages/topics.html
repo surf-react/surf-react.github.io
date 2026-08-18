@@ -8,26 +8,19 @@ permalink: /topics/
     <p class="eyebrow">Up to date available projects</p>
     <h1>Topics</h1>
   </header>
-
   <div class="prose">
     <p>This list is maintained to reflect the current group focus as well as availability of individual supervisors. If you'd like to work on your thesis with us and you don't see an interesting topic, don't hesitate to contact us with your ideas!</p>
   </div>
-
   <div class="topics-list">
     {% for topics in site.data.topics %}
     <details class="topics-card">
       <summary>
-        <!--<span class="topics-code">{{ topics.code }}</span>-->
-        <span class="topics-name">{{ topics.name }}</span>
+        <span class="topics-name">{% if topics.lecturer %}<strong>{{ topics.lecturer }}</strong> – {% endif %}{{ topics.name }}</span>
         <span class="topics-chevron" aria-hidden="true">▾</span>
       </summary>
       <div class="topics-body">
-        {% if topics.semester or topics.lecturer %}
-        <p class="topics-meta">
-          {% if topics.semester %}{{ topics.semester }}{% endif %}
-          {% if topics.semester and topics.lecturer %} · {% endif %}
-          {% if topics.lecturer %}{{ topics.lecturer }}{% endif %}
-        </p>
+        {% if topics.semester %}
+        <p class="topics-meta">{{ topics.semester }}</p>
         {% endif %}
         {% if topics.description %}
         <p>{{ topics.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
