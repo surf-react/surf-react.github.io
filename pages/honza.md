@@ -2,7 +2,7 @@
 layout: bio
 title: Jan Navrátil
 permalink: /honza/
-role: Ph.D. candidate
+role: Postdoctoral fellow
 initials: JN
 # Drop your portrait into assets/img/people/ and uncomment:
 # photo: /assets/img/people/honza.jpg
