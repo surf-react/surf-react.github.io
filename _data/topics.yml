@@ -28,18 +28,18 @@
 
 - name: DFT calculations of properties and reactivity of low-dimensional materials
   semester: Bachelor & master
-  lecturer: Mgr. Jan Navrátil
+  lecturer: Mgr. Jan Navrátil, Ph.D.
   description: >-
     Using computational chemistry, specifically density functional theory (DFT), it is possible to examine in detail the properties of materials, or partial steps of chemical reactions at the level of individual atoms. Within this topic, it is possible to focus on various research directions, the most important of which are heterogeneous catalysis and magnetism. In heterogeneous catalysis, reactions belonging to "green chemistry" are investigated, i.e. serving the sustainability of our civilization, for example, the production of hydrogen from water or the reduction of carbon dioxide. The student can also choose another suitable reaction that interests him. Calculations can specialize either in detailed characterization of the catalyst and the possibility of increasing its efficiency, or in a detailed description of individual reaction steps with an emphasis on revealing the critical step. The optimal output is the design of a suitably modified catalyst that will help overcome the critical step. In the field of magnetism, the greatest emphasis is placed on materials potentially applicable in magnetic data storage or in spintronics. Both of these areas are now being intensively investigated with the potential to improve current electrical devices. While fulfilling the objectives of this thesis, the student will acquire the basic methods of DFT calculations, which are now part of most major scientific publications. This work can be appropriately expanded during subsequent studies.
 
 - name: Employing machine learning for processing of DFT calculations
   semester: Bachelor & master
-  lecturer: Mgr. Jan Navrátil
+  lecturer: Mgr. Jan Navrátil, Ph.D.
   description: >-
    Efforts to understand the relationship between the structure of a material and its properties have been underway for a very long time. Using computational chemistry methods, it is possible to calculate the properties of a given material when its structure is known, but explaining these properties may not always be simple. To fully understand a given issue, it is often necessary to perform many calculations on similar materials and observe how the investigated properties change. However, when evaluating a large amount of data, it is very difficult to correctly observe all dependencies with the naked eye. Therefore, machine learning methods are used, which greatly simplify this entire process. When solving this thesis, the student will learn to perform basic DFT calculations and also learn to work with machine learning methods, which can be used when processing a large amount of data, not only in theoretical chemistry.
 
 - name: Building software for simplification of theoretical calculations
   semester: Bachelor
-  lecturer: Mgr. Jan Navrátil
+  lecturer: Mgr. Jan Navrátil, Ph.D.
   description: >-
     Most theoretical calculations are currently entered and exported in text files, and then it is possible to perform evaluations, for example, display the structure, using other software. Every computational chemist has found his own way to make this work as easy as possible, but most of the time, even then, all these tasks remain unnecessarily long. The aim of this work is to reveal steps that could be optimized and to overcome them by creating his own software. The student will understand the basic principles of calculations in computational chemistry and will learn to script and program an application for automatic data processing, which he can use in the future not only in computational chemistry.
