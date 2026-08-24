@@ -39,7 +39,7 @@
 - code: KFC/MOMAT
   name: Modeling of materials and nanomaterials
   semester: Winter
-  lecturer: Mgr. Adam Matěj, Ph.D. and Mgr. Jan Navrátil
+  lecturer: Mgr. Adam Matěj, Ph.D. and Mgr. Jan Navrátil, Ph.D.
   description: >-
     The subject is focused on application of quantum chemistry and solid state physics in the field of nanomaterials.
 
@@ -60,13 +60,13 @@
 - code: KFC/STD
   name: Statistical thermodynamics
   semester: Winter
-  lecturer: Mgr. Jan Navrátil
+  lecturer: Mgr. Jan Navrátil, Ph.D.
   description: >-
     This course deals with fundamental statistical thermodynamics and its applications in chemical disciplines.
 
 - code: KFC/TL
   name: Technological laboratories
   semester: Winter and Summer
-  lecturer: Mgr. Matěj Navrátil
+  lecturer: Mgr. Matěj Navrátil, Ph.D.
   description: >-
     Introduction to quantum chemistry: The Technological Laboratory course provides practical experience with fundamental chemical engineering operations and industrial processes, including grinding, filtration, distillation, drying, extraction, and surface treatment of materials. The laboratory exercises also involve the preparation of selected chemical products, the study of technological procedures, and an introduction to wastewater treatment methods and material characterization.
